@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SneakerSneak V2</title>
+    <title>WA2M</title>
     <link href="formulaire.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,124 +15,71 @@
 </head>
 
 <body>
+  <div class="firstsection">
     <div class="navbar">
         <div class="navbar-title">
-            <a href="index.html"><h1>SS</h1></a>
+            <a href="index.html" class="indexflex"><img src="spin.gif" class="spin"></a>
         </div>
-        <div class="navbar-side">
-            <h2>Nouveautés</h2>
-            <a href="catalogue.html"><h2>Catalogue</h2></a>
-        </div>
-        <div class="navbar-cart">
-            <img src="sneakerbox.png" class="cart">
-            <div class="vl"></div>
-            <img src="carte-didentite (1).png" class="login">
-        </div>         
+    </div>
+    </div>
+
+    <div class="icywalkflex">
+      <img src="Icy gonna walk animation finish.gif" class="icywalk">
+      <p class="icytalk">Thanks for Pre-ordering !</p>
     </div>
 
     <div class="form">
-        <form action="/ma-page-de-traitement" method="post" id="entry" class="form-style">
-            <label for="name" class="slogan">Nom et prénoms: </label><br>
-            <input type="text" id="titre" name="user_titre" maxlength="10" class="size"><br>
-        
-            <label for="mail" class="slogan"> Adresse postale:</label><br>
-            <input type="text" id="analogie" name="user_nom" maxlength="50" class="size"><br>
-
-            <label for="courriel" class="slogan">Adresse Mail:</label><br>
-            <input type="email" id="courriel" name="courriel" class="size"><br>
-
-            <input type="button" id="envoi" value="Réservez" class="button">
-    </div>
-
-    <footer class="footer">
-        <div class="footer__addr">
-          <h1 class="footer__logo">SneakerSneak</h1>
-              
-          <h2>Contact</h2>
-          
-          <address>
-            5534 Somewhere In. The World 22193-10212<br>
-                
-            <a class="footer__btn" href="gleidabadjeck@gmail.com">Email Us</a>
-          </address>
-        </div>
-        
-        <ul class="footer__nav">
-          <li class="nav__item">
-            <h2 class="nav__title">Media</h2>
-      
-            <ul class="nav__ul">
-              <li>
-                <a href="#">Online</a>
-              </li>
-      
-              <li>
-                <a href="#">Print</a>
-              </li>
-                  
-              <li>
-                <a href="#">Alternative Ads</a>
-              </li>
-            </ul>
-          </li>
-          
-          <li class="nav__item nav__item--extra">
-            <h2 class="nav__title">Technology</h2>
+      <div class="formflex">
+        <form action="https://public.herotofu.com/v1/f0fd85d0-68da-11ee-8bcd-4fcc9e7e7286" method="post" accept-charset="UTF-8" id="entry" class="form-style">
+            <label for="name" class="slogan">Nom et prénoms : </label>
+            <input type="text" id="titre" name="Identité" maxlength="50" class="size">
             
-            <ul class="nav__ul nav__ul--extra">
-              <li>
-                <a href="#">Hardware Design</a>
-              </li>
-              
-              <li>
-                <a href="#">Software Design</a>
-              </li>
-              
-              <li>
-                <a href="#">Digital Signage</a>
-              </li>
-              
-              <li>
-                <a href="#">Automation</a>
-              </li>
-              
-              <li>
-                <a href="#">Artificial Intelligence</a>
-              </li>
-              
-              <li>
-                <a href="#">IoT</a>
-              </li>
-            </ul>
-          </li>
-          
-          <li class="nav__item">
-            <h2 class="nav__title">Legal</h2>
-            
-            <ul class="nav__ul">
-              <li>
-                <a href="#">Privacy Policy</a>
-              </li>
-              
-              <li>
-                <a href="#">Terms of Use</a>
-              </li>
-              
-              <li>
-                <a href="#">Sitemap</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        
-        <div class="legal">
-          <p>&copy; 2019 Something. All rights reserved.</p>
-          
-          <div class="legal__links">
-            <span>Made with <span class="heart">♥</span> remotely from Anywhere</span>
+            <label for="mail" class="slogan"> Adresse de livraison :</label>
+            <input type="text" id="analogie" name="Adresse" maxlength="50" class="size">
+
+            <label for="mail" class="slogan"> Numéro de téléphone :</label>
+            <input type="text" id="analogie" name="Numéro" maxlength="50" class="size">
+
+            <label for="mail" class="slogan"> Instagram : </label>
+            <input type="text" id="analogie" name="Instagram" maxlength="50" class="size">
+
+          <div class="formflex">
+            <label for="pet-select" class="slogan">Quel Item souhaitez vous ?</label>
+            <select name="shirts" id="pet-select" class="shirtscss">
+              <option value="">Selectionnez une option :</option>
+              <option value="Jordan">Jordan T Shirt</option>
+              <option value="Slam Dunk">Slam Dunk T Shirt</option>
+              <option value="Yuyu">Yuyu Hakusho T Shirt</option>
+              <option value="Initial">Initial D T Shirt</option>
+              <option value="Kobe">Kobe T Shirt</option>
+              <option value="Kobe">Autre (2+ t-shirts)</option>
+            </select>
           </div>
+
+          <div class="formflex">
+            <label for="pet-select" class="slogan">Taille ? </label>
+            <select name="Taille" id="pet-select" class="shirtscss">
+              <option value="">Selectionnez une option :</option>
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+              <option value="XL">XL</option>
+            </select>
+          </div>
+         
+          <div class="formflex">
+            <label for="pet-select" class="slogan">Méthodes de réglement</label>
+            <select name="Paiement" id="pet-select" class="shirtscss">
+              <option value="">Selectionnez une option :</option>
+              <option value="cash">Espèces</option>
+              <option value="virement">Virement</option>
+              <option value="virement">Autre (a préciser après contact)</option>
+            </div>
+          <div class="buttonflex">
+            <input type="submit" id="envoi" value="Validez" class="button">
+          </div> 
         </div>
-      </footer>
+    </div>
 
 </body>
 

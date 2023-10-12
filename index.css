@@ -133,7 +133,7 @@ body{
   font-weight: 600;
   font-size: 2vh;
   color: white;
-  padding: 5%;
+  padding: 1%;
 }
 
 .ad2{
@@ -177,45 +177,46 @@ body{
   text-align: center;
   font-family: 'Oswald';
   background-color: black;
-  border-radius: 1%;
-  padding: 11vw;
-    padding-top: 11vw;
-    padding-right: 11vw;
-    padding-bottom: 11vw;
-    padding-left: 11vw;
+  border-radius: 3vw;
   margin: 4vw;
-  border-top: white solid 1vw;
-  border-bottom: white solid 1vw;
+  /*border: white solid 1vw;*/
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card img{
   object-fit: cover;
-  max-width: 70vh;
-  min-width: 50vh
+  width: 50%;
+}
+
+.spincard{
+  max-width: 15%;
+  display: flex;
+  min-width: 10%;
 }
 
 .card h1{
   color: white;
-  font-size: 3vh;
+  font-size: 3rem;
   font-family: 'Alagard';
-  padding: 2vh;
+  padding: 1vh;
 }
 
 
-.card p {
+.def {
   color: white;
-  font-size: 2vh;
+  font-size: 1rem;
   font-family:'Alagard';
-}
-
-p.def{
-  color:white;
-  font-size: 100%;
 }
 
 .price {
   text-align: center;
-  font-size: 3vh;
+  font-size: 2rem;
+  color:white;
+  font-family:'Alagard';
 }
 
 .button{
@@ -234,10 +235,15 @@ p.def{
   font-size: 18px;
   border-style: solid;
   border-radius: 21px;
-  margin: 5%;
+  font-family:'Alagard';
 }
 
 .button:hover{
+  background: white;
+  color: black;
+}
+
+.button:active{
   background: white;
   color: black;
 }
@@ -259,5 +265,3 @@ p.def{
   touch-action: manipulation;
   cursor: pointer;
 }
-
-  
