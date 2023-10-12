@@ -1,0 +1,263 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+@font-face { font-family: Alagard; src: url('alagard\ 2.ttf'); }
+
+@media screen and (min-width: 1024px; max-width: 1150){
+  .searchbar{
+    background-color: white;
+    border-radius: 26px;
+    width: 80vw;
+    height: 85px;
+    display: flex;
+    margin: 0 auto;
+}
+
+}
+
+.firstsection{
+   /*background-image: url(shootingdef/DSC00976.jpg);*/
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navbar{
+  background-color: black;
+  width: 100vw;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  justify-content: center;
+}
+
+.navbar h1{
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 114px;
+    margin-left: 16px;
+    cursor: pointer;
+
+    background: linear-gradient(180deg, #00FF7F 0%, #35E1AE 50%, #87CEEB 96.35%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.navbar-title{
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+}
+
+.spin{
+  max-width: 7%;
+  display: flex;
+  min-width: 9%;
+}
+
+/*Seconde section*/
+
+.secondsection{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.slogan {
+  display: flex;
+  justify-content: center;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3vw;
+  background: white;
+    background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+  margin: 4%;
+}
+
+.slogan2 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Alagard';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3vw;
+  background: white;
+    background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+  margin: 4%;
+}
+
+.size{
+  width:15vw;
+  margin-right: 8px;
+}
+
+/*Vidéo*/
+
+.spotpub{
+  height: 100%;
+  width: 100%;
+  border-style: solid;
+  border-color: white;
+  border: 10px;
+  margin: 8px;
+}
+
+
+.ad{
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2vh;
+  color: white;
+  padding: 5%;
+}
+
+.ad2{
+  font-family: 'Alagard';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  color: white;
+  padding: 5%;
+}
+
+.adflex{
+  display: flex;
+  justify-content: center;
+}
+
+.icyflex{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icyprop{
+  width: 40vw;
+}
+
+/*Cartes flex box*/
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5%;
+  align-content: center;
+  height: 8vw;
+}
+
+
+.card {
+  text-align: center;
+  font-family: 'Oswald';
+  background-color: black;
+  border-radius: 1%;
+  padding: 11vw;
+    padding-top: 11vw;
+    padding-right: 11vw;
+    padding-bottom: 11vw;
+    padding-left: 11vw;
+  margin: 4vw;
+  border-top: white solid 1vw;
+  border-bottom: white solid 1vw;
+}
+
+.card img{
+  object-fit: cover;
+  max-width: 70vh;
+  min-width: 50vh
+}
+
+.card h1{
+  color: white;
+  font-size: 3vh;
+  font-family: 'Alagard';
+  padding: 2vh;
+}
+
+
+.card p {
+  color: white;
+  font-size: 2vh;
+  font-family:'Alagard';
+}
+
+p.def{
+  color:white;
+  font-size: 100%;
+}
+
+.price {
+  text-align: center;
+  font-size: 3vh;
+}
+
+.button{
+  background: black;
+  border-radius: 15px;
+  font-weight: 800;
+}
+
+.card button {
+  outline: 0;
+  padding: 0.75rem;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 13rem;
+  font-size: 18px;
+  border-style: solid;
+  border-radius: 21px;
+  margin: 5%;
+}
+
+.button:hover{
+  background: white;
+  color: black;
+}
+
+.buttonlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  cursor: pointer;
+}
+
+  
