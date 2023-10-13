@@ -79,10 +79,11 @@ body{
 .slogan {
   display: flex;
   justify-content: center;
+    text-align: center;
   font-family: 'Karla';
   font-style: normal;
   font-weight: 800;
-  font-size: 3vw;
+  font-size: 2vw;
   background: white;
     background-clip: border-box;
   -webkit-background-clip: text;
@@ -143,6 +144,7 @@ body{
   font-size: 1rem;
   color: white;
   padding: 5%;
+    text-align: center;
 }
 
 .adflex{
