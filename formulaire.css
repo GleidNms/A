@@ -28,15 +28,17 @@ hr{
 .icywalkflex{
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
+    align-items: center;
 }
 
 .icytalk{
-  color: white;
+    color: white;
   font-size: 2vw;
   font-family: 'Alagard';
   display: flex;
-  align-items: center;
+  text-align: center;
+  padding: 5px;
 }
 
 .navbar{
@@ -119,16 +121,15 @@ hr{
     font-size: 2vh;
     font-family: 'Orkney';
     margin: 3vh;
-   /* background-color: rgba(255, 255, 255, 0.25);*/
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .size{
-    font-size: 2rem;
     display: flex;
-    height: 2vh;
-    padding: 18px;
-    border-style: black;
-    /* background: linear-gradient(180deg, #87CEEB 0%, #00FF7F 100%); */
     border-radius: 8px;
     width: inherit;
     color: black;
@@ -136,6 +137,7 @@ hr{
     font-style: italic;
     justify-content: center;
     margin-bottom: 2vh;
+    text-align: center;
 }
 
 .shirtscss{
